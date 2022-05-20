@@ -64,17 +64,28 @@ input{
 h4{
     margin-top: 5px;
 }
-
+#btn-reserve{
+    margin-top: 50%;
+    background-color: #6C63FF;
+    color: white;
+    border-radius: 3px;
+    font-weight: 500;
+    border: none;
+    height: 50px;
+    width: 100px;
+}
 /* reservation style */
 .container{
     margin-top: 50px;
 }
 .form{
-    background-color: blueviolet;
+    background: url('/assets/images/undraw_aircraft_fbvl.png') !important;
+    background: rgba(115, 120, 248, 0.7);
     border-radius: 5px;
-    color: white;
+    color: #6C63FF;
     margin-top: 50px;
     font-weight: 500;
+    padding-top: 50px;
 }
 .btn-reserve{
     margin-bottom: 10px;

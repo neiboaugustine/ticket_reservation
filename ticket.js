@@ -11,3 +11,6 @@ btn_id.addEventListener('click',(e)=>{
       }
      ticket_id.innerHTML=s4()+s4();
 })
+
+
+

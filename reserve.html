@@ -15,38 +15,38 @@
                 <form class="row g-3">
                     <div class="col-md-4">
                       <label class="form-label">Surname</label>
-                      <input type="text" class="form-control">
+                      <input id="surname" type="text" class="form-control" required>
                     </div>
                     <div class="col-md-4">
                         <label class="form-label">First name</label>
-                        <input type="text" class="form-control">
+                        <input id="firstName" type="text" class="form-control" required>
                       </div>
                     <div class="col-md-4">
-                      <label for="inputPassword4" class="form-label">Last name</label>
-                      <input type="text" class="form-control">
+                      <label class="form-label">Last name</label>
+                      <input id="lastName" type="text" class="form-control" required>
                     </div>
                     <div class="col-6">
                       <label class="form-label">From</label>
-                      <input type="text" class="form-control">
+                      <input id="Plocation" type="text" class="form-control" required>
                     </div>
                     <div class="col-6">
-                        <label for="inputAddress" class="form-label">Destination</label>
-                        <input type="text" class="form-control">
+                        <label class="form-label">Destination</label>
+                        <input id="destination" type="text" class="form-control" required>
                       </div>
                     <div class="col-md-6">
                       <label class="form-label">Date</label>
-                      <input type="date" class="form-control" id="inputCity">
+                      <input id="date" type="date" class="form-control" id="inputCity" required>
                     </div>
                     <div class="col-md-2">
                       <label class="form-label">Ticket ID</label>
-                      <input type="text" class="form-control" id="inputZip">
+                      <input id="id" type="text" class="form-control" id="inputZip" required>
                     </div>
                     <div class="col-md-4">
                       <label class="form-label">Sit number</label>
-                      <input type="number" class="form-control" id="inputZip">
+                      <input id="sitNumber" type="number" class="form-control" id="inputZip" required>
                     </div>
                     <div class="col-12">
-                      <button type="submit" class="btn-reserve btn-primary">Book</button>
+                      <button id="btn-submit" type="submit" class="btn-reserve btn-primary">Book</button>
                     </div>
                   </form>
             </div>
@@ -55,5 +55,6 @@
             </div>
         </div>
     </div>
+    <script src="/reserve.js"></script>
 </body>
 </html>

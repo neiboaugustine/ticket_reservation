@@ -29,6 +29,7 @@ let travelDetails = [];
       document.forms[0].reset()
 
       console.log(travelDetails)
+      localStorage.setItem('Passenger details', JSON.stringify(travelDetails))
   }
 document.addEventListener("DOMContentLoaded", ()=>{
     btn.addEventListener('click',addDetails);
